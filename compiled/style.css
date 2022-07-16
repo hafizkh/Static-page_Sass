@@ -61,7 +61,7 @@ main .first_sect {
 }
 main .first_sect > div:nth-child(1) {
   grid-area: first;
-  background-image: url("./assests/images/child_1.jpg");
+  background-image: url("../assests/images/child_1.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -74,7 +74,7 @@ main .first_sect > div:nth-child(1):hover {
   transform: scale(1.04);
 }
 main .first_sect > div:nth-child(2) {
-  background-image: url("./assests/images/child_2.jpg");
+  background-image: url("../assests/images/child_2.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -87,7 +87,7 @@ main .first_sect > div:nth-child(2):hover {
   transform: scale(1.04);
 }
 main .first_sect > div:nth-child(3) {
-  background-image: url("./assests/images/child_3.jpg");
+  background-image: url("../assests/images/child_3.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -100,7 +100,7 @@ main .first_sect > div:nth-child(3):hover {
   transform: scale(1.04);
 }
 main .first_sect > div:nth-child(4) {
-  background-image: url("./assests/images/child_4.jpg");
+  background-image: url("../assests/images/child_4.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -113,7 +113,7 @@ main .first_sect > div:nth-child(4):hover {
   transform: scale(1.04);
 }
 main .first_sect > div:nth-child(5) {
-  background-image: url("./assests/images/child_2.jpg");
+  background-image: url("../assests/images/child_2.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -130,7 +130,7 @@ main .second_sect {
   flex-direction: column;
   justify-content: space-around;
   border-radius: 1em;
-  background-image: url("./assests/images/sec_section_2.jpg");
+  background-image: url("../assests/images/sec_section_2.jpg");
   width: 100wh;
   height: 50vh;
   margin-top: 2em;
@@ -164,7 +164,7 @@ main .third_sect {
 }
 main .third_sect > div:nth-child(1) {
   grid-area: first;
-  background-image: url("./assests/images/child_1.jpg");
+  background-image: url("../assests/images/child_1.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -177,7 +177,7 @@ main .third_sect > div:nth-child(1):hover {
   transform: scale(1.04);
 }
 main .third_sect > div:nth-child(2) {
-  background-image: url("./assests/images/child_4.jpg");
+  background-image: url("../assests/images/child_4.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -200,7 +200,7 @@ main .forth_sect {
 }
 main .forth_sect > div:nth-child(1) {
   grid-area: first;
-  background-image: url("./assests/images/child_3.jpg");
+  background-image: url("../assests/images/child_3.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -214,7 +214,7 @@ main .forth_sect > div:nth-child(1):hover {
   transform: scale(1.04);
 }
 main .forth_sect > div:nth-child(2) {
-  background-image: url("./assests/images/child_2.jpg");
+  background-image: url("../assests/images/child_2.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -228,7 +228,7 @@ main .forth_sect > div:nth-child(2):hover {
   transform: scale(1.04);
 }
 main .forth_sect > div:nth-child(3) {
-  background-image: url("./assests/images/child_1.jpg");
+  background-image: url("../assests/images/child_1.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-around;
