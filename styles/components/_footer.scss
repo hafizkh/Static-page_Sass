@@ -1,0 +1,102 @@
+@use "../features/buttons";
+@use "../variables/colors";
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            color: white;
+        }
+
+        span {
+            color: white;
+        }
+
+        input {
+            margin: 2em 2em;
+            padding: 0 10em;
+            background-color: transparent;
+            color: #fff;
+            font-size: 15px;
+            border-right: none;
+            border-left: none;
+            border-top: none;
+
+            &:focus {
+                outline: none;
+                width: 50%;
+            }
+            input[type="email"]::placeholder {  
+                  
+                text-align: center; 
+            } 
+        }
+        button {
+            padding: 1.3em;
+            border-radius: 1em;
+            background-color: #414650;
+            color: #fff;
+
+            &:hover {
+                background-color: rgb(231, 164, 77);
+                cursor: pointer;
+            }
+        }
+    }
+
+    .footer-nav {
+        margin-top: 3em;
+    }
+
+    nav {
+        display: inline-block;
+        // justify-content: space-between;
+        margin-bottom: -4em;
+        margin-left: -1em;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            margin: 1em;
+            padding: 1em;
+
+            li {
+                margin: 1em;
+                padding-right: 1em;
+
+                &>a {
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        color: colors.$nav_items_hover;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+
+        }
+    }
+    .social-icons{
+        display: flex;
+        font-weight: 300px;
+        float: right;
+        margin-top: 3em;
+        i{
+            color: white;
+            margin-right: 2em;
+        }
+    }
+    p{
+        color: #fff;
+        margin-left: 2em;
+    }
+}

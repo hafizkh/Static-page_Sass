@@ -1,0 +1,79 @@
+@mixin card($background-image) {
+    background-image: $background-image;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1em;
+    padding: 2em;
+    transition: 0.7s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.04);
+    }
+}
+
+@mixin sect2($background-image) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 1em;
+    background-image: $background-image;
+    width: 100wh;
+    height: 50vh;
+    margin-top: 2em;
+    padding: 6em;
+    transition: 0.7s;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.04);
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h1 {
+            font-size: 50px;
+            line-height: 1.4;
+        }
+
+    }
+}
+
+@mixin sect3($background-image) {
+    background-image: $background-image;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1em;
+    padding: 2em;
+    cursor: pointer;
+    transition: 0.7s;
+
+    &:hover {
+        transform: scale(1.04);
+    }
+
+}
+
+@mixin sect4($background-image) {
+    background-image: $background-image;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 1em;
+    margin-top: 1em;
+    padding: 3em;
+    cursor: pointer;
+    transition: 0.7s;
+
+    &:hover {
+        transform: scale(1.04);
+    }
+
+}

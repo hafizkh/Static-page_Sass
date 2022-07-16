@@ -1,0 +1,13 @@
+@use "components/header";
+@use "components/main";
+@use "components/footer";
+
+@use "variables/colors";
+body{
+    margin: 0;padding: 0;
+    background: url("/assests/images/background.jpg");
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    min-height: 100px;
+
+}

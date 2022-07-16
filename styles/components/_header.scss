@@ -1,0 +1,70 @@
+@use "../variables/colors";
+@use "../variables/fonts";
+
+
+header {
+    div {
+        display: flex;
+        position: relative;
+        width: fit-content;
+
+        a {
+            text-decoration: none;
+            color: colors.$nav_items_color;
+
+        }
+
+        img {
+            position: absolute;
+            height: 80px;
+            padding: 1.2em;
+            border-radius: 100%;
+            margin-left: 2em;
+            margin-top: 0.8em;
+
+        }
+
+        h2 {
+            text-decoration: none;
+            margin-left: 2.2em;
+            display: flex;
+            transform: translate(50%, 50%);
+            font-size: fonts.$nav_logo_h2;
+            color: colors.$nav_items_color;
+
+            &:hover {
+                color: colors.$nav_items_hover;
+
+            }
+
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            margin: 1em;
+            padding: 1em;
+
+            li {
+                margin: 1em 1.5em;
+                padding-right: 1em;
+
+                &>a {
+                    text-decoration: none;
+                    color: colors.$nav_items_color;
+
+                    &:hover {
+                        color: colors.$nav_items_hover;
+                        text-decoration: underline;
+                    }
+
+                }
+            }
+        }
+    }
+}

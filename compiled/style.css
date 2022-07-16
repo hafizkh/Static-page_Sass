@@ -1,0 +1,359 @@
+header div {
+  display: flex;
+  position: relative;
+  width: fit-content;
+}
+header div a {
+  text-decoration: none;
+  color: white;
+}
+header div img {
+  position: absolute;
+  height: 80px;
+  padding: 1.2em;
+  border-radius: 100%;
+  margin-left: 2em;
+  margin-top: 0.8em;
+}
+header div h2 {
+  text-decoration: none;
+  margin-left: 2.2em;
+  display: flex;
+  transform: translate(50%, 50%);
+  font-size: 39px;
+  color: white;
+}
+header div h2:hover {
+  color: rgba(196, 93, 110, 0.836);
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 1em;
+  padding: 1em;
+}
+header nav ul li {
+  margin: 1em 1.5em;
+  padding-right: 1em;
+}
+header nav ul li > a {
+  text-decoration: none;
+  color: white;
+}
+header nav ul li > a:hover {
+  color: rgba(196, 93, 110, 0.836);
+  text-decoration: underline;
+}
+
+main {
+  margin: 2em;
+}
+main .first_sect {
+  display: grid;
+  grid-row: auto;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-template-areas: "first second third" "first fourth fifth";
+  gap: 1.5em;
+}
+main .first_sect > div:nth-child(1) {
+  grid-area: first;
+  background-image: url("/assests/images/child_1.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1em;
+  padding: 2em;
+  transition: 0.7s;
+  cursor: pointer;
+}
+main .first_sect > div:nth-child(1):hover {
+  transform: scale(1.04);
+}
+main .first_sect > div:nth-child(2) {
+  background-image: url("/assests/images/child_2.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1em;
+  padding: 2em;
+  transition: 0.7s;
+  cursor: pointer;
+}
+main .first_sect > div:nth-child(2):hover {
+  transform: scale(1.04);
+}
+main .first_sect > div:nth-child(3) {
+  background-image: url("/assests/images/child_3.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1em;
+  padding: 2em;
+  transition: 0.7s;
+  cursor: pointer;
+}
+main .first_sect > div:nth-child(3):hover {
+  transform: scale(1.04);
+}
+main .first_sect > div:nth-child(4) {
+  background-image: url("/assests/images/child_4.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1em;
+  padding: 2em;
+  transition: 0.7s;
+  cursor: pointer;
+}
+main .first_sect > div:nth-child(4):hover {
+  transform: scale(1.04);
+}
+main .first_sect > div:nth-child(5) {
+  background-image: url("/assests/images/child_2.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1em;
+  padding: 2em;
+  transition: 0.7s;
+  cursor: pointer;
+}
+main .first_sect > div:nth-child(5):hover {
+  transform: scale(1.04);
+}
+main .second_sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 1em;
+  background-image: url("/assests/images/sec_section_2.jpg");
+  width: 100wh;
+  height: 50vh;
+  margin-top: 2em;
+  padding: 6em;
+  transition: 0.7s;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+main .second_sect:hover {
+  transform: scale(1.04);
+}
+main .second_sect .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .second_sect .heading h1 {
+  font-size: 50px;
+  line-height: 1.4;
+}
+main .third_sect {
+  display: grid;
+  grid-row: auto;
+  grid-template-columns: 2fr 2fr;
+  grid-template-areas: "first second";
+  gap: 1em;
+  margin-top: 2em;
+  height: 70vh;
+  width: 100wh;
+}
+main .third_sect > div:nth-child(1) {
+  grid-area: first;
+  background-image: url("/assests/images/child_1.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1em;
+  padding: 2em;
+  cursor: pointer;
+  transition: 0.7s;
+}
+main .third_sect > div:nth-child(1):hover {
+  transform: scale(1.04);
+}
+main .third_sect > div:nth-child(2) {
+  background-image: url("/assests/images/child_4.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1em;
+  padding: 2em;
+  cursor: pointer;
+  transition: 0.7s;
+}
+main .third_sect > div:nth-child(2):hover {
+  transform: scale(1.04);
+}
+main .forth_sect {
+  display: grid;
+  grid-row: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "first second third";
+  margin-top: 1em;
+  height: 70vh;
+  gap: 1em;
+}
+main .forth_sect > div:nth-child(1) {
+  grid-area: first;
+  background-image: url("/assests/images/child_3.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 1em;
+  margin-top: 1em;
+  padding: 3em;
+  cursor: pointer;
+  transition: 0.7s;
+}
+main .forth_sect > div:nth-child(1):hover {
+  transform: scale(1.04);
+}
+main .forth_sect > div:nth-child(2) {
+  background-image: url("/assests/images/child_2.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 1em;
+  margin-top: 1em;
+  padding: 3em;
+  cursor: pointer;
+  transition: 0.7s;
+}
+main .forth_sect > div:nth-child(2):hover {
+  transform: scale(1.04);
+}
+main .forth_sect > div:nth-child(3) {
+  background-image: url("/assests/images/child_1.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 1em;
+  margin-top: 1em;
+  padding: 3em;
+  cursor: pointer;
+  transition: 0.7s;
+}
+main .forth_sect > div:nth-child(3):hover {
+  transform: scale(1.04);
+}
+main .fifth_sect {
+  margin-top: 1em;
+  width: 100%;
+}
+main .fifth_sect div {
+  display: flex;
+  justify-content: center;
+}
+main .fifth_sect div button {
+  padding: 18px 28px;
+  width: 80%;
+  border-radius: 1em;
+  cursor: pointer;
+  margin-top: 2em;
+  background-color: #414650;
+  color: white;
+}
+main .fifth_sect div button:hover {
+  background-color: rgb(231, 164, 77);
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer form h1 {
+  color: white;
+}
+footer form span {
+  color: white;
+}
+footer form input {
+  margin: 2em 2em;
+  padding: 0 10em;
+  background-color: transparent;
+  color: #fff;
+  font-size: 15px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+footer form input:focus {
+  outline: none;
+  width: 50%;
+}
+footer form input input[type=email]::placeholder {
+  text-align: center;
+}
+footer form button {
+  padding: 1.3em;
+  border-radius: 1em;
+  background-color: #414650;
+  color: #fff;
+}
+footer form button:hover {
+  background-color: rgb(231, 164, 77);
+  cursor: pointer;
+}
+footer .footer-nav {
+  margin-top: 3em;
+}
+footer nav {
+  display: inline-block;
+  margin-bottom: -4em;
+  margin-left: -1em;
+}
+footer nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 1em;
+  padding: 1em;
+}
+footer nav ul li {
+  margin: 1em;
+  padding-right: 1em;
+}
+footer nav ul li > a {
+  text-decoration: none;
+  color: white;
+}
+footer nav ul li > a:hover {
+  color: rgba(196, 93, 110, 0.836);
+  text-decoration: underline;
+}
+footer .social-icons {
+  display: flex;
+  font-weight: 300px;
+  float: right;
+  margin-top: 3em;
+}
+footer .social-icons i {
+  color: white;
+  margin-right: 2em;
+}
+footer p {
+  color: #fff;
+  margin-left: 2em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("/assests/images/background.jpg");
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  min-height: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
