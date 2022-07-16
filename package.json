@@ -1,9 +1,12 @@
 {
+  "homepage": "https://github.com/hafizkh/Static-page_Sass#readme",
   "name": "static-page_sass",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "sass --watch styles/style.scss:compiled/style.css"
   },
@@ -16,8 +19,10 @@
   "bugs": {
     "url": "https://github.com/hafizkh/Static-page_Sass/issues"
   },
-  "homepage": "https://github.com/hafizkh/Static-page_Sass#readme",
   "dependencies": {
     "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
