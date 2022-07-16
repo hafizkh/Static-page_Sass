@@ -15,35 +15,35 @@ main {
         &>div {
             &:nth-child(1) {
                 grid-area: first;
-                @include mixins.card(url("/assests/images/child_1.jpg"));
+                @include mixins.card(url("assests/images/child_1.jpg"));
 
             }
 
             &:nth-child(2) {
-                @include mixins.card(url("/assests/images/child_2.jpg"));
+                @include mixins.card(url("assests/images/child_2.jpg"));
 
             }
 
             &:nth-child(3) {
-                @include mixins.card(url("/assests/images/child_3.jpg"));
+                @include mixins.card(url("assests/images/child_3.jpg"));
             }
 
 
             &:nth-child(4) {
-                @include mixins.card(url("/assests/images/child_4.jpg"));
+                @include mixins.card(url("assests/images/child_4.jpg"));
 
 
             }
 
             &:nth-child(5) {
-                @include mixins.card(url("/assests/images/child_2.jpg"));
+                @include mixins.card(url("assests/images/child_2.jpg"));
 
             }
         }
     }
 
     .second_sect {
-        @include mixins.sect2(url("/assests/images/sec_section_2.jpg"))
+        @include mixins.sect2(url("assests/images/sec_section_2.jpg"))
     }
 
     .third_sect {
@@ -60,11 +60,11 @@ main {
         &>div {
             &:nth-child(1) {
                 grid-area: first;
-                @include mixins.sect3(url("/assests/images/child_1.jpg"))
+                @include mixins.sect3(url("assests/images/child_1.jpg"))
             }
 
             &:nth-child(2) {
-                @include mixins.sect3(url("/assests/images/child_4.jpg"))
+                @include mixins.sect3(url("assests/images/child_4.jpg"))
             }
         }
     }
@@ -82,15 +82,15 @@ main {
         &>div {
             &:nth-child(1) {
                 grid-area: first;
-                @include mixins.sect4(url("/assests/images/child_3.jpg"))
+                @include mixins.sect4(url("assests/images/child_3.jpg"))
             }
 
             &:nth-child(2) {
-                @include mixins.sect4(url("/assests/images/child_2.jpg"))
+                @include mixins.sect4(url("assests/images/child_2.jpg"))
             }
 
             &:nth-child(3) {
-                @include mixins.sect4(url("/assests/images/child_1.jpg"))
+                @include mixins.sect4(url("assests/images/child_1.jpg"))
             }
 
         }
