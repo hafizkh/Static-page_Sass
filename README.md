@@ -1,7 +1,7 @@
 # Static-page_Sass
 
 #### The URL of the project is:
-https://hafizkh.github.io/Static-page_Sass/
+[Click to see Page](https://hafizkh.github.io/Static-page_Sass/)
 
 Stackes used in the project:
 <p>
